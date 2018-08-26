@@ -9,7 +9,7 @@ public class ConstructorInjectedController {
 
     private GreetingService greetingService;
 
-    public ConstructorInjectedController(@Qualifier("constructorGreetinServiceImpl") GreetingService greetingService) {
+    public ConstructorInjectedController(@Qualifier("constructorGreetingServiceImpl") GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 
