@@ -3,3 +3,11 @@ guru:
     username: jms username
     password: jms password
     url: jms url
+---
+# separate file by ---
+spring:
+  profiles: de
+
+guru:
+  jms:
+    username: jms username GERMAN
